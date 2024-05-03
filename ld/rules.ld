@@ -62,7 +62,7 @@ SECTIONS
     . = ALIGN(4);
     PROVIDE(__init_array_end = .);
   } > SRAM
-  
+    
   /* Common Code */
   .text : ALIGN(4) SUBALIGN(4)
   {

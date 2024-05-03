@@ -2,11 +2,11 @@
     "header" : 
     {
         "platform" : "nutekt-digital",
-        "module" : "delfx",
+        "module" : "revfx",
         "api" : "1.1-0",
         "dev_id" : 0,
         "prg_id" : 0,
-        "version" : "0.1-0",
+        "version" : "1.0-0",
         "name" : "reverb",
         "num_param" : 0
     }

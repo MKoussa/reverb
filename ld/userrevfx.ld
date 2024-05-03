@@ -32,9 +32,9 @@
 //*/
 
 /*
- *  File: userdelfx.ld 
+ *  File: userrevfx.ld 
  * 
- *  Linker Script for user delay effects
+ *  Linker Script for user reverb effects
  */
 
 /* Entry Point */

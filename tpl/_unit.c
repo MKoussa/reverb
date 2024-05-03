@@ -33,13 +33,13 @@
 
 /**
  * @file    _unit.c
- * @brief   Delay effect entry template.
+ * @brief   Reverb effect entry template.
  *
  * @addtogroup api
  * @{
  */
 
-#include "userdelfx.h"
+#include "userrevfx.h"
 
 /*===========================================================================*/
 /* Externs and Types.                                                        */
@@ -70,8 +70,8 @@ typedef void (*__init_fptr)(void);
  */
 
 __attribute__((used, section(".hooks")))
-static const user_delfx_hook_table_t s_hook_table = {
-  .magic = {'U','D','E','L'},
+static const user_revfx_hook_table_t s_hook_table = {
+  .magic = {'U','R','E','V'},
   .api = USER_API_VERSION,
   .platform = USER_TARGET_PLATFORM>>8,
   .reserved0 = {0},
@@ -153,3 +153,4 @@ void _hook_param(uint8_t index, int32_t value)
 
 
 /** @} */
+
